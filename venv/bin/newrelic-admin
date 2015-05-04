@@ -1,0 +1,9 @@
+#!/home/jacob/code/newrelic-python-kata/venv/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'newrelic==2.50.0.39','console_scripts','newrelic-admin'
+__requires__ = 'newrelic==2.50.0.39'
+import sys
+from pkg_resources import load_entry_point
+
+sys.exit(
+   load_entry_point('newrelic==2.50.0.39', 'console_scripts', 'newrelic-admin')()
+)

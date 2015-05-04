@@ -1,7 +1,7 @@
 django==1.5
 requests
 gunicorn
-pywapi
+--allow-external pywapi
 dj-database-url
 #boom
 psycopg2
